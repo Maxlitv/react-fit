@@ -4,6 +4,8 @@ import Header from "./components/Header/Header";
 import ProfileSummary from "./components/ProfileSummary/ProfileSummary";
 import FirstSection from "./components/FirstSection/FirstSection";
 import SecondSection from "./components/SecondSection/SecondSection";
+import Thirdsection from "./components/ThirdSection/Thirdsection";
+import Lastsection from "./components/Lastsection/Lastsection";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <ProfileSummary />
       <FirstSection />
       <SecondSection />
+      <Thirdsection />
+      <Lastsection />
     </div>
   );
 }

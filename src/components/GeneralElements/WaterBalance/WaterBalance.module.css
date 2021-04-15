@@ -29,3 +29,20 @@
   width: 45px;
   height: 64px;
 }
+
+/* mobile */
+@media screen and (max-width: 600px) {
+  .balance_result {
+    font-size: 30px;
+  }
+  .water_drop {
+    width: 35px;
+    height: 50px;
+  }
+  .flex_item_1 {
+    margin: 26px 0px 25px 23px;
+  }
+  .result_2 {
+    margin: 0px 0px 25px 23px;
+  }
+}

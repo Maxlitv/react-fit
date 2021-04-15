@@ -36,3 +36,22 @@
   line-height: 24px;
   text-align: center;
 }
+
+/* mobile layout */
+
+@media screen and (max-width: 600px) {
+  .kilos_box {
+    width: 327px;
+    height: 96px;
+    margin: 20px 0px 20px 0px;
+    flex-direction: row;
+  }
+  .kilos_box p {
+    text-align: left;
+    margin-left: 10px;
+  }
+  .kilos_main {
+    font-size: 54px;
+    line-height: 66px;
+  }
+}

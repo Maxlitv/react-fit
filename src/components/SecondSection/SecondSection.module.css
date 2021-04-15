@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-bottom: 36px;
 }
 .section_break {
   margin-top: 74px;
@@ -19,4 +20,26 @@
   display: flex;
   flex-direction: column;
   margin: 0px 0px 48px 0px;
+  transition: all 0.3s;
+}
+
+/* hover effect start */
+.flex_item:hover {
+  transform: scale(1.05);
+}
+/* hover effect end */
+@media screen and (max-width: 600px) {
+  .flex_item {
+    width: 327px;
+    height: 230px;
+    margin: 0px 0px 20px 0px;
+  }
+  .water_mobile,
+  .meta_mobile,
+  .calories_mobile {
+    height: 173px;
+  }
+  .section_break {
+    margin: 32px 0px 25px 0px;
+  }
 }

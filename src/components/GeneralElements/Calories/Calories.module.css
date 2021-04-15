@@ -21,27 +21,22 @@
   /* identical to box height */
   color: #222222;
 }
-.meta_age {
+.fire_img {
   width: 67px;
   height: 68px;
 }
-
-/* mobile */
 @media screen and (max-width: 600px) {
-  .balance_result {
-    font-size: 30px;
-    line-height: 36px;
-  }
-  .meta_age {
-    width: 49px;
+  .fire_img {
+    width: 34px;
     height: 50px;
+    position: relative;
+    top: 10px;
+  }
+  .balance_result {
+    font-size: 26px;
+    line-height: 31px;
   }
   .flex_item_1 {
-    margin: 18px 0px 17px 16px;
-  }
-  .result_2 {
-    margin: 0px 44px 17px 15px;
-    position: relative;
-    bottom: 8px;
+    margin: 0px 40px 22px 23px;
   }
 }

@@ -17,7 +17,7 @@
   /* max-width: 425px; */
   margin-top: 66px;
   text-align: left;
-  width: 60%;
+  /* width: 60%; */
   display: flex;
   flex-direction: column;
 }
@@ -39,7 +39,6 @@
   font-style: normal;
   font-size: 40px;
   line-height: 48px;
-  height: 144px;
 }
 .sub_text {
   font-family: Lato;
@@ -52,4 +51,28 @@
 /* refactor later */
 .props_please {
   color: #31c062;
+}
+
+@media screen and (max-width: 600px) {
+  .flex_container {
+    flex-direction: column;
+    padding: 0px 24px 0px 24px;
+  }
+  .flex_item {
+    width: auto;
+  }
+  .main_headline h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .sub_text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .flex_item_next {
+  }
+  .flex_item_3 {
+    flex-direction: column-reverse;
+    margin-bottom: 40px;
+  }
 }

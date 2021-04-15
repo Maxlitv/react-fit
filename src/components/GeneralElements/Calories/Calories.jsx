@@ -1,27 +1,27 @@
 import React from "react";
-import style from "../MetabolicAge/Metabolic.module.css";
-import meta_age from "../../assets/meta_age.svg";
+import style from "../Calories/Calories.module.css";
+import fire_rr from "../../assets/this_is_fire.svg";
 
-function MetabolicAge() {
+function Calories() {
   return (
     <div>
       <div className={style.flex_container}>
-        <h3 className="personal_attributes">Your metabolic age</h3>
+        <h3 className="personal_attributes">Your daily calorie intake</h3>
         <hr />
       </div>
       <div className={`${style.flex_container} ${style.extended}`}>
         <div className={style.flex_item_1}>
-          <img className={style.meta_age} src={meta_age} alt="" />
+          <img className={style.fire_img} src={fire_rr} alt="" />
           <p className={`${style.result_2}`}>
             <span className="result_additional">
-              Slightly higher than your actual&nbsp;age
+              Recommended to achieve your&nbsp;goals
             </span>
             <br />
-            <span className={style.balance_result}>29 years</span>
+            <span className={style.balance_result}>2300 — 2400 kcal</span>
           </p>
         </div>
       </div>
     </div>
   );
 }
-export default MetabolicAge;
+export default Calories;

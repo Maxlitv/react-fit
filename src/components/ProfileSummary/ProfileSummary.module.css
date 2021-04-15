@@ -24,6 +24,10 @@
   opacity: 0.2;
   background: #222222;
 }
+/* hide last line */
+.flex_item_right:last-child:after {
+  opacity: 0;
+}
 /* typography */
 .sub_headline {
   font-size: 32px;
@@ -39,3 +43,27 @@
   font-weight: 500;
   color: #222222;
 }
+/* mobile layouting start */
+@media screen and (max-width: 600px) {
+  .flex_container {
+    flex-direction: column;
+    padding: 16px 0px 10px 24px;
+    align-items: flex-start;
+  }
+  .sub_headline {
+    font-size: 28px;
+    line-height: 34px;
+    margin-top: 0px;
+  }
+  .additional_info {
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 3px;
+  }
+  .flex_item_right {
+  }
+  .flex_item_right:after {
+    top: 10%;
+  }
+}
+/* mobile layouting end */

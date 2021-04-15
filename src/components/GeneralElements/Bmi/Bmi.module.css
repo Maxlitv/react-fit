@@ -10,6 +10,17 @@
   margin: 0px 48px 69px 32px;
 }
 
+/* mobile layout */
+@media screen and (max-width: 600px) {
+  .rangeInput {
+    -webkit-appearance: none; /* Hides the slider */
+    width: 295px; /* Specific width is required for Firefox. */
+    background: transparent; /* Otherwise white in Chrome */
+    margin: 0px 16px 67px 16px;
+  }
+}
+
+/* /// STYLING FOR RANGE INPUT */
 /* lets do some styling for range input */
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;

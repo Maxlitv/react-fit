@@ -13,4 +13,12 @@
   line-height: 22px;
   letter-spacing: 2px;
   color: #ffffff;
+  margin-top: 33px;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .main_cta {
+    width: 327px;
+    height: 48px;
+  }
 }

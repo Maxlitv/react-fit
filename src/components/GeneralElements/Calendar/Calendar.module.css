@@ -1,5 +1,5 @@
 .calendar__box {
-  width: 340px;
+  width: 327px;
   height: 230px;
   background: #ffffff;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
@@ -46,6 +46,20 @@
   align-items: center;
   margin-top: 24px;
 }
+/* last child styling */
+.day_number:last-child span {
+  color: #027bff;
+  opacity: 1;
+}
+.day_number:last-child:after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #027bff;
+  margin-top: 6px;
+}
+/* end of last child styling */
 .day_number:after {
   content: "";
   width: 6px;
@@ -88,4 +102,21 @@
 
   mix-blend-mode: normal;
   opacity: 0.8;
+}
+
+/* mobile layout */
+
+@media screen and (max-width: 600px) {
+  .kilo_main {
+    flex-direction: row;
+    flex-basis: 50%;
+  }
+  .text {
+    position: relative;
+    margin-left: 11px;
+    top: 12px;
+  }
+  .calendar__box {
+    height: 178px;
+  }
 }
