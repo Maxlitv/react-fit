@@ -19,16 +19,8 @@ In the project directory, you can run:
 
 In the project directory, you can run:
 
-> > > > > > > 0ba49dd0067dddf1d71f1e8b559044a704d08602
-
 ### `yarn start`
 
 ### `yarn test`
-
-<<<<<<< HEAD
-
-=======
-
-> > > > > > > 0ba49dd0067dddf1d71f1e8b559044a704d08602
 
 ### `yarn build`
