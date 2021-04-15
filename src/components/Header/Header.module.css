@@ -1,0 +1,32 @@
+/* layout */
+.flex_container {
+  display: flex;
+  height: 80px;
+  background-color: #027bff;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 130px;
+}
+/* buttons */
+.main__cta {
+  color: #027bff;
+  width: 210px;
+  height: 44px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border: none;
+}
+
+/* logo styling */
+.brand__logo {
+  width: 110px;
+  height: 33, 85px;
+  margin-left: 130px;
+}

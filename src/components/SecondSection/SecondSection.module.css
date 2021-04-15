@@ -1,0 +1,22 @@
+.flex_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.section_break {
+  margin-top: 74px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.flex_item {
+  width: 566px;
+  height: 258px;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 48px 0px;
+}

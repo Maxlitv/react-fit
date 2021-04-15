@@ -1,0 +1,17 @@
+.graph__box {
+  /* width: 702px; because it's not equal in Figma screen. sorry :) */
+  height: 257px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  background: #ffffff;
+}
+.graph_number_box {
+  margin-top: 20px;
+}
+.graph_number {
+  margin: 45px 20px 0px 20px;
+  font-size: 20px;
+}

@@ -1,0 +1,55 @@
+/* layouting */
+.flex_container {
+  background-color: #f7f9ff;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0 130px;
+  padding-bottom: 100px;
+  justify-content: space-between;
+}
+.flex_item {
+  max-width: 425px;
+  text-align: left;
+  width: 40%;
+}
+.flex_item_next {
+  /* max-width: 425px; */
+  margin-top: 66px;
+  text-align: left;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.flex_item_3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.flex_item_extended {
+  display: flex;
+  align-items: center;
+}
+
+/* typography */
+.main_headline h1 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 48px;
+  height: 144px;
+}
+.sub_text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+/* refactor later */
+.props_please {
+  color: #31c062;
+}

@@ -1,0 +1,16 @@
+.main_cta {
+  /* padding: 13px 50px; */
+  width: 216px;
+  height: 48px;
+  border-radius: 14px;
+  background: #027bff;
+  border: none;
+  text-transform: uppercase;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
