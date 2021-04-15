@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-right: 22px;
 }
 .kilo_main {
   font-style: normal;
@@ -39,7 +40,7 @@
 
 /* mobile layout */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 845px) {
   .kilos_box {
     width: 327px;
     height: 96px;

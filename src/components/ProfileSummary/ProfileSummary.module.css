@@ -60,10 +60,16 @@
     line-height: 19px;
     padding-left: 3px;
   }
-  .flex_item_right {
+  .flex_item_right:first-child {
+    padding-left: 0px;
   }
   .flex_item_right:after {
     top: 10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flex_container {
+    padding: 0px 24px 0px 24px;
   }
 }
 /* mobile layouting end */

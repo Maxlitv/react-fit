@@ -30,7 +30,7 @@ function Lastsection() {
         <h2>Our promise</h2>
         <div>
           {promiseData.map((el) => (
-            <div key={el.promise}>
+            <div key={el.Promise}>
               <p>{el.Promise}</p>
             </div>
           ))}
@@ -44,7 +44,7 @@ function Lastsection() {
             </p>
           </div>
           <div className={style.flex_item}>
-            <img src={signature} alt="" srcset="" />
+            <img src={signature} alt="" />
           </div>
         </div>
         <div className={style.section_break}>

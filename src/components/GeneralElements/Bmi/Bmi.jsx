@@ -14,6 +14,7 @@ function Bmi() {
           min="0"
           max="100"
           //   release value to make slider dynamic
+          readOnly
           value="80"
         ></input>
       </div>

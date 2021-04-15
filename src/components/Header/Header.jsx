@@ -7,7 +7,7 @@ function Header() {
     <header className={style.header}>
       <div className={style.flex_container}>
         <div className={style.flex_item_1}>
-          <img src={logo} alt="" srcset="" />
+          <img src={logo} alt="" />
         </div>
         <div className={style.flex_item_2}>
           <button className={style.main__cta}>Start now</button>

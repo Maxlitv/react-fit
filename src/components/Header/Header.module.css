@@ -31,6 +31,7 @@
   height: 33, 85px;
   margin-left: 130px;
 }
+/*start mobile+tablet */
 @media screen and (max-width: 600px) {
   .flex_container {
     padding: 0 24px;
@@ -40,3 +41,9 @@
     height: 44px;
   }
 }
+@media screen and (max-width: 768px) {
+  .flex_container {
+    padding: 0 24px 0 24px;
+  }
+}
+/*end mobile+tablet */

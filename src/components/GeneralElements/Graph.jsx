@@ -5,8 +5,6 @@ import graph_mob from "../assets/graph_mobile.svg";
 
 function Graph() {
   let graphNumbers = new Array(20).fill(1).map((_, i) => i + 50);
-  let centralNumber = graphNumbers[2];
-  // console.log(graphNumbers);
   return (
     <div className={style.graph__box}>
       <div className={style.graph_number_box}>
@@ -15,6 +13,21 @@ function Graph() {
             {el}
           </span>
         ))}
+      </div>
+      <div className={style.exact_day}>
+        <p>by January 2020</p>
+      </div>
+      <div className={style.dot_1}>
+        <div className={style.month}>nov 2019</div>
+        <div className={style.kg_amount_1}>
+          64<span>kg</span>
+        </div>
+      </div>
+      <div className={style.dot_2}>
+        <div className={style.month}>jan 2020</div>
+        <div className={style.kg_amount_2}>
+          56<span>kg</span>
+        </div>
       </div>
       <div className={style.graph_img}>
         <img src={graph_desktop} alt="" />

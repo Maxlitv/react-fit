@@ -7,7 +7,7 @@ function Bodyvalues() {
     <div>
       <div className={style.flex_container}>
         <div className={style.flex_item}>
-          <img src={full_body} alt="" srcset="" />
+          <img src={full_body} alt="" />
         </div>
         {/* <div className={style.flex_item}></div> */}
       </div>
