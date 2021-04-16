@@ -1,3 +1,4 @@
+/* layouting */
 .container {
   display: block;
   background-color: #f7f9ff;
@@ -70,3 +71,5 @@ mobile layout */
     margin: 0px 24px 0px 24px;
   }
 }
+/* 
+end of mobile layout */

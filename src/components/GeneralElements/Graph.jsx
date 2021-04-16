@@ -4,15 +4,18 @@ import graph_desktop from "../assets/green_graph_desktop.svg";
 import graph_mob from "../assets/graph_mobile.svg";
 
 function Graph() {
+  // creating array with 20 numbers inside
   let graphNumbers = new Array(20).fill(1).map((_, i) => i + 50);
   return (
     <div className={style.graph__box}>
+      {/* mapping for some spans */}
       <div className={style.graph_number_box}>
         {graphNumbers.map((el, i) => (
           <span className={style.graph_number} key={i}>
             {el}
           </span>
         ))}
+        {/*  end mapping */}
       </div>
       <div className={style.exact_day}>
         <p>by January 2020</p>

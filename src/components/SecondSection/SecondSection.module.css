@@ -1,3 +1,4 @@
+/* layouting */
 .flex_container {
   display: flex;
   flex-direction: row;
@@ -22,12 +23,15 @@
   margin: 0px 0px 48px 0px;
   transition: all 0.3s;
 }
+/* end of layouting */
 
 /* hover effect start */
 .flex_item:hover {
   transform: scale(1.05);
 }
 /* hover effect end */
+
+/* media queries */
 @media screen and (max-width: 600px) {
   .flex_item {
     width: 327px;
@@ -43,3 +47,4 @@
     margin: 32px 0px 25px 0px;
   }
 }
+/* end media queries */

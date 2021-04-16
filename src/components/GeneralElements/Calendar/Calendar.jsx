@@ -2,6 +2,7 @@ import React from "react";
 import style from "../Calendar/Calendar.module.css";
 
 function Calendar() {
+  // creating array of objects to hold data
   let weekDays = [
     {
       dayName: "Mon",
@@ -32,8 +33,10 @@ function Calendar() {
       dayCount: 7,
     },
   ];
+  // end of array of objects
   return (
     <div className={style.calendar__box}>
+      {/* mapping it to display day and number */}
       <div className={style.calendar_box_row}>
         {weekDays.map((el) => (
           <div className={style.day_number} key={el.dayCount}>
@@ -42,6 +45,7 @@ function Calendar() {
           </div>
         ))}
       </div>
+      {/* end of mapping */}
       <div>
         <div className={style.kilo_main}>
           <span>
