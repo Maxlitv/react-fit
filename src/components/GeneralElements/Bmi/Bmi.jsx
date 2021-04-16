@@ -1,14 +1,13 @@
 import React from "react";
 import style from "../Bmi/Bmi.module.css";
 
-function Bmi() {
+function Bmi({ bmiData }) {
   return (
     <div>
       <div className={style.flex_container}>
         <h3 className="personal_attributes">Your BMI</h3>
         <hr />
-        <p className="result">55.56</p>
-        put
+        <p className="result">{bmiData}</p>
         <input
           className={style.rangeInput}
           type="range"

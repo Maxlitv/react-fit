@@ -2,7 +2,7 @@ import React from "react";
 import style from "../MetabolicAge/Metabolic.module.css";
 import meta_age from "../../assets/meta_age.svg";
 
-function MetabolicAge() {
+function MetabolicAge({ metaAge }) {
   return (
     <div>
       <div className={style.flex_container}>
@@ -17,7 +17,7 @@ function MetabolicAge() {
               Slightly higher than your actual&nbsp;age
             </span>
             <br />
-            <span className={style.balance_result}>29 years</span>
+            <span className={style.balance_result}>{metaAge} years</span>
           </p>
         </div>
       </div>

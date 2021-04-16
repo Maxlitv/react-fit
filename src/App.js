@@ -6,13 +6,13 @@ import SecondSection from "./components/SecondSection/SecondSection";
 import Thirdsection from "./components/ThirdSection/Thirdsection";
 import Lastsection from "./components/Lastsection/Lastsection";
 
-function App() {
+function App({ data }) {
   return (
     <div className="App">
       <Header />
-      <ProfileSummary />
-      <FirstSection />
-      <SecondSection />
+      <ProfileSummary userData={data.userData} />
+      <FirstSection store={data.firstSectionData} />
+      <SecondSection store={data.secondSectionData} />
       <Thirdsection />
       <Lastsection />
     </div>

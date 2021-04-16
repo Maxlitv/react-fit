@@ -8,6 +8,14 @@
 }
 .headline_box p {
   padding-bottom: 43px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
 }
 .flex_container {
   display: flex;
@@ -58,6 +66,7 @@ mobile layout */
   .headline_box p {
     padding-top: 12px;
     padding-bottom: 29px;
+    font-size: 16px;
   }
   .flex_container {
     flex-direction: column;

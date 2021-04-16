@@ -1,7 +1,7 @@
 import React from "react";
 import style from "../Calendar/Calendar.module.css";
 
-function Calendar() {
+function Calendar({ calendarData }) {
   // creating array of objects to hold data
   let weekDays = [
     {
@@ -49,7 +49,8 @@ function Calendar() {
       <div>
         <div className={style.kilo_main}>
           <span>
-            -5<span className={style.description}>kg</span>
+            {calendarData}
+            <span className={style.description}>kg</span>
           </span>
           <p className={style.text}>After first week</p>
         </div>

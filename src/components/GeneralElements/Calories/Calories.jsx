@@ -2,7 +2,7 @@ import React from "react";
 import style from "../Calories/Calories.module.css";
 import fire_rr from "../../assets/this_is_fire.svg";
 
-function Calories() {
+function Calories({ dailyCalories }) {
   return (
     <div>
       <div className={style.flex_container}>
@@ -17,7 +17,7 @@ function Calories() {
               Recommended to achieve your&nbsp;goals
             </span>
             <br />
-            <span className={style.balance_result}>2300 — 2400 kcal</span>
+            <span className={style.balance_result}>{dailyCalories} kcal</span>
           </p>
         </div>
       </div>

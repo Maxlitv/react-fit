@@ -2,7 +2,7 @@ import React from "react";
 import style from "../WaterBalance/WaterBalance.module.css";
 import water_drop from "../../assets/water_drop.svg";
 
-function WaterBalance() {
+function WaterBalance({ waterBalance }) {
   return (
     <div>
       <div className={style.flex_container}>
@@ -15,7 +15,7 @@ function WaterBalance() {
           <p className={`${style.result_2}`}>
             <span className="result_additional">Your daily minimum is</span>
             <br />
-            <span className={style.balance_result}>1.7L</span>
+            <span className={style.balance_result}>{waterBalance}L</span>
           </p>
         </div>
       </div>
