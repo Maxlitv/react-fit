@@ -46,4 +46,14 @@
     padding: 0 24px 0 24px;
   }
 }
+@media screen and (max-width: 414px) {
+  .flex_container {
+    margin: 0px 20px 0px 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .flex_container {
+    margin: 0px;
+  }
+}
 /*end mobile+tablet */

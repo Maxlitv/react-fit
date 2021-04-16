@@ -13,6 +13,9 @@ h1 {
 
   color: #222222;
 }
+header {
+  background-color: #027bff;
+}
 .personal_attributes {
   font-family: Lato;
   font-style: normal;
