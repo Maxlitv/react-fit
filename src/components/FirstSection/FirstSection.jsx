@@ -1,7 +1,7 @@
 import React from "react";
 import style from "../FirstSection/FirstSection.module.css";
-import MainCta from "../GeneralElements/MainCta.jsx";
-import Graph from "../GeneralElements/Graph.jsx";
+import MainCta from "../GeneralElements/Sharedcomponents/MainCta.jsx";
+import Graph from "../GeneralElements/Graph/Graph.jsx";
 import Calendar from "../GeneralElements/Calendar/Calendar.jsx";
 import Kilos from "../GeneralElements/Kilos/Kilos.jsx";
 
@@ -22,7 +22,9 @@ function FirstSection({ store }) {
             We’ve evaluated your answers and prepared a summary out of 10.243
             people similar to you
           </p>
-          <MainCta />
+          <div className={style.cta_hide_mob}>
+            <MainCta />
+          </div>
         </div>
       </div>
       <div className={style.flex_item_next}>
@@ -30,6 +32,9 @@ function FirstSection({ store }) {
         <div className={style.flex_item_3}>
           <Kilos LostKgs={store.LostKgs} />
           <Calendar calendarData={store.calendarData} />
+        </div>
+        <div className={style.cta_show_mob}>
+          <MainCta />
         </div>
       </div>
     </div>

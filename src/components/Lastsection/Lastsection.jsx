@@ -1,7 +1,7 @@
 import React from "react";
 import style from "../Lastsection/Lastsection.module.css";
 import signature from "../../components/assets/signature.png";
-import MainCta from "../GeneralElements/MainCta";
+import MainCta from "../GeneralElements/Sharedcomponents/MainCta";
 
 function Lastsection() {
   let promiseData = [

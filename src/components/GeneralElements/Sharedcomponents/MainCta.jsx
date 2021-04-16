@@ -1,5 +1,5 @@
 import React from "react";
-import style from "../GeneralElements/MainCta.module.css";
+import style from "../Sharedcomponents/MainCta.module.css";
 
 function MainCta() {
   return (

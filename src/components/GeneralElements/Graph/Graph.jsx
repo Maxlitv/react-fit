@@ -1,7 +1,7 @@
 import React from "react";
-import style from "../GeneralElements/Graph.module.css";
-import graph_desktop from "../assets/green_graph_desktop.svg";
-import graph_mob from "../assets/graph_mobile.svg";
+import style from "../Graph/Graph.module.css";
+import graph_desktop from "../../assets/green_graph_desktop.svg";
+import graph_mob from "../../assets/graph_mobile.svg";
 
 function Graph() {
   // creating array with 20 numbers inside

@@ -21,6 +21,8 @@
   font-size: 20px;
   opacity: 0.4;
 }
+
+/* working with child selectors */
 .graph_number:nth-child(6) {
   font-size: 30px;
   font-family: Lato;
@@ -52,6 +54,7 @@
   line-height: 19px;
   opacity: 1 !important;
 }
+/* end of working with child selectors */
 /* styling for graph itself */
 .graph_img {
   overflow: hidden;

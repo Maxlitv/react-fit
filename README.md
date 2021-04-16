@@ -14,6 +14,16 @@ I suppose some additional calculations are required to count some stuff in the e
 
 Moreover, you can see that I've suggested layout for tablet devices as well.
 
+## Improvements/Suggestions to make app better
+
+It would be nice to improve graph element - so it would dynamically appear/put dots on specific spots and etc.
+
+Moreover, it will be fun to add some nice animations to "Personal summary" section.
+
+Also, i guess it wil be fun to make Calendar element to be clickable. So let's say each day represents amount of kilos lost.
+
+And as the final thing - i'd add a modal box when clicking on a "Start" CTAs with email input, so it will be kinda a dymanic web app.
+
 ## Available Scripts
 
 Intro to this project - will apear later.

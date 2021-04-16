@@ -81,10 +81,11 @@
     line-height: 24px;
   }
   .flex_item_next {
+    margin-top: 24px;
   }
   .flex_item_3 {
     flex-direction: column-reverse;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
   }
 }
 /* tablet */
@@ -98,8 +99,19 @@
   .flex_item {
     margin: 0px 20px 0px 20px;
   }
+  .cta_hide_mob {
+    display: none;
+  }
+  .cta_show_mob {
+    margin: 0px 0px 40px;
+  }
   .flex_container {
     align-items: center;
+  }
+}
+@media screen and (min-width: 415px) {
+  .cta_show_mob {
+    display: none;
   }
 }
 @media screen and (max-width: 375px) {
