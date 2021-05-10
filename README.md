@@ -4,8 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Introduction to task
 
-Hey, first of all, I'd like to thank you for the task and opportunity!
-
 I suggest that this is the last page where the user gets the results of his/her inputs before.
 
 It works like a quiz/question_set so we can get some inputs to display it all later.
